@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "coa-mapper-mcp"
+version = "0.1.0"
+description = "Open-source MCP server that maps charts of accounts between QuickBooks, Xero, Wave, Sage, and FreshBooks."
+license = "MIT"
+authors = [{ name = "Ampliwork" }]
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.0.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
+
+[project.scripts]
+coa-mapper-mcp = "coa_mapper_mcp.server:main"
