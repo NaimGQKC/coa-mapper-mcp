@@ -1,0 +1,1393 @@
+[
+  {
+    "slug": "cash",
+    "canonical_name": "Cash",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "aliases": [
+      "cash on hand",
+      "petty cash",
+      "cash and cash equivalents",
+      "cash in hand",
+      "cash at bank",
+      "till cash",
+      "register cash"
+    ],
+    "description": "Physical currency and coins held by the business, including petty cash funds"
+  },
+  {
+    "slug": "checking",
+    "canonical_name": "Checking Account",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "aliases": [
+      "checking",
+      "business checking",
+      "bank account",
+      "current account",
+      "business account",
+      "operating account",
+      "demand deposit",
+      "chequing account",
+      "primary checking"
+    ],
+    "description": "Funds held in business checking or current bank accounts used for day-to-day operations"
+  },
+  {
+    "slug": "savings",
+    "canonical_name": "Savings Account",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "aliases": [
+      "savings",
+      "business savings",
+      "savings account",
+      "deposit account",
+      "money market",
+      "money market account",
+      "high-yield savings",
+      "reserve account"
+    ],
+    "description": "Funds held in interest-bearing savings or deposit accounts"
+  },
+  {
+    "slug": "accounts_receivable",
+    "canonical_name": "Accounts Receivable",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "aliases": [
+      "accounts receivable (a/r)",
+      "accounts receivable - a/r",
+      "trade receivables",
+      "trade debtors",
+      "debtors",
+      "receivables",
+      "customer balances",
+      "outstanding invoices",
+      "amounts due from customers"
+    ],
+    "description": "Amounts owed to the business by customers for goods or services delivered on credit"
+  },
+  {
+    "slug": "allowance_doubtful_accounts",
+    "canonical_name": "Allowance for Doubtful Accounts",
+    "type": "Asset",
+    "subtype": "Contra Asset",
+    "aliases": [
+      "allowance for doubtful accounts",
+      "allowance for bad debts",
+      "provision for doubtful debts",
+      "provision for bad debts",
+      "less provision for doubtful debts",
+      "doubtful accounts reserve",
+      "allowance for uncollectible accounts",
+      "provision for credit losses",
+      "bad debt provision"
+    ],
+    "description": "Contra-asset account estimating the portion of accounts receivable expected to be uncollectible"
+  },
+  {
+    "slug": "inventory",
+    "canonical_name": "Inventory",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "aliases": [
+      "inventory",
+      "inventory asset",
+      "stock",
+      "stock on hand",
+      "merchandise inventory",
+      "finished goods",
+      "raw materials",
+      "work in progress",
+      "trading stock",
+      "goods on hand"
+    ],
+    "description": "Goods and materials held for sale, in production, or consumed in the production process"
+  },
+  {
+    "slug": "prepaid_expenses",
+    "canonical_name": "Prepaid Expenses",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "aliases": [
+      "prepaid expenses",
+      "prepayments",
+      "prepaid insurance",
+      "prepaid rent",
+      "advance payments",
+      "deferred charges",
+      "prepaid expenditure",
+      "prepaid costs"
+    ],
+    "description": "Payments made in advance for goods or services to be received in a future period"
+  },
+  {
+    "slug": "security_deposits",
+    "canonical_name": "Security Deposits",
+    "type": "Asset",
+    "subtype": "Other Asset",
+    "aliases": [
+      "security deposits",
+      "refundable deposits",
+      "rental deposits",
+      "lease deposits",
+      "deposits paid",
+      "deposits receivable",
+      "bond deposits",
+      "retainers asset"
+    ],
+    "description": "Refundable deposits paid to landlords, utilities, or other parties as security"
+  },
+  {
+    "slug": "land",
+    "canonical_name": "Land",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "aliases": [
+      "land",
+      "land and site costs",
+      "real property - land",
+      "freehold land",
+      "land holdings",
+      "property - land"
+    ],
+    "description": "Land owned by the business, not subject to depreciation"
+  },
+  {
+    "slug": "buildings",
+    "canonical_name": "Buildings",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "aliases": [
+      "buildings",
+      "building",
+      "freehold property",
+      "structures",
+      "real property - buildings",
+      "office building",
+      "warehouse",
+      "property and buildings"
+    ],
+    "description": "Structures and buildings owned by the business, subject to depreciation"
+  },
+  {
+    "slug": "building_improvements",
+    "canonical_name": "Building Improvements",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "aliases": [
+      "building improvements",
+      "leasehold improvements",
+      "tenant improvements",
+      "leasehold improvement",
+      "building renovations",
+      "capital improvements",
+      "fit-out costs",
+      "building alterations"
+    ],
+    "description": "Capital improvements to owned or leased buildings that extend useful life or add value"
+  },
+  {
+    "slug": "furniture_equipment",
+    "canonical_name": "Furniture & Equipment",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "aliases": [
+      "furniture and equipment",
+      "furniture & fixtures",
+      "fixtures and fittings",
+      "furniture and fixtures",
+      "office furniture & equipment",
+      "plant and equipment",
+      "plant and machinery",
+      "plant & machinery",
+      "machinery & equipment",
+      "office equipment",
+      "equipment",
+      "tools & equipment"
+    ],
+    "description": "Furniture, fixtures, office equipment, and machinery used in business operations"
+  },
+  {
+    "slug": "vehicles",
+    "canonical_name": "Vehicles",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "aliases": [
+      "vehicles",
+      "motor vehicles",
+      "automobiles",
+      "company vehicles",
+      "fleet vehicles",
+      "trucks",
+      "delivery vehicles",
+      "transport equipment",
+      "cars"
+    ],
+    "description": "Motor vehicles owned by the business for operational use"
+  },
+  {
+    "slug": "computer_equipment",
+    "canonical_name": "Computer & IT Equipment",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "aliases": [
+      "computer equipment",
+      "computer hardware",
+      "computers & peripherals",
+      "IT equipment",
+      "computer and internet",
+      "technology equipment",
+      "servers and networking",
+      "electronic equipment",
+      "fixed asset computers",
+      "IT software and consumables"
+    ],
+    "description": "Computers, servers, networking equipment, and other IT hardware"
+  },
+  {
+    "slug": "accumulated_depreciation_buildings",
+    "canonical_name": "Accumulated Depreciation - Buildings",
+    "type": "Asset",
+    "subtype": "Contra Asset",
+    "aliases": [
+      "accumulated depreciation - buildings",
+      "accumulated depreciation on buildings",
+      "less accumulated depreciation on buildings",
+      "building depreciation",
+      "depreciation - buildings",
+      "provision for depreciation - buildings"
+    ],
+    "description": "Cumulative depreciation charged against buildings over their useful life"
+  },
+  {
+    "slug": "accumulated_depreciation_equipment",
+    "canonical_name": "Accumulated Depreciation - Equipment",
+    "type": "Asset",
+    "subtype": "Contra Asset",
+    "aliases": [
+      "accumulated depreciation - equipment",
+      "accumulated depreciation on equipment",
+      "less accumulated depreciation on office equipment",
+      "less accumulated depreciation on plant and equipment",
+      "less accumulated depreciation on plant and machinery",
+      "accumulated depreciation - furniture & fixtures",
+      "accumulated depreciation",
+      "depreciation - equipment",
+      "provision for depreciation - equipment"
+    ],
+    "description": "Cumulative depreciation charged against equipment, furniture, and fixtures"
+  },
+  {
+    "slug": "accumulated_depreciation_vehicles",
+    "canonical_name": "Accumulated Depreciation - Vehicles",
+    "type": "Asset",
+    "subtype": "Contra Asset",
+    "aliases": [
+      "accumulated depreciation - vehicles",
+      "accumulated depreciation on vehicles",
+      "less accumulated depreciation on motor vehicles",
+      "vehicle depreciation",
+      "depreciation - vehicles",
+      "provision for depreciation - motor vehicles"
+    ],
+    "description": "Cumulative depreciation charged against vehicles over their useful life"
+  },
+  {
+    "slug": "other_current_assets",
+    "canonical_name": "Other Current Assets",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "aliases": [
+      "other current assets",
+      "other current asset",
+      "sundry debtors",
+      "miscellaneous current assets",
+      "employee advances",
+      "employee cash advances",
+      "short-term advances",
+      "current assets - other"
+    ],
+    "description": "Current assets not classified in other specific asset categories"
+  },
+  {
+    "slug": "other_long_term_assets",
+    "canonical_name": "Other Long-Term Assets",
+    "type": "Asset",
+    "subtype": "Other Asset",
+    "aliases": [
+      "other long-term assets",
+      "other long-term asset",
+      "other non-current assets",
+      "other assets",
+      "intangible assets",
+      "intangibles",
+      "goodwill",
+      "long-term investments",
+      "non-current assets - other"
+    ],
+    "description": "Long-term assets not classified in other specific asset categories"
+  },
+  {
+    "slug": "undeposited_funds",
+    "canonical_name": "Undeposited Funds",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "aliases": [
+      "undeposited funds",
+      "funds in transit",
+      "payments received but not deposited",
+      "clearing account",
+      "payment clearing",
+      "bank clearing",
+      "funds awaiting deposit",
+      "receipts not yet deposited"
+    ],
+    "description": "Payments received from customers that have not yet been deposited into a bank account"
+  },
+  {
+    "slug": "accounts_payable",
+    "canonical_name": "Accounts Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "aliases": [
+      "accounts payable (a/p)",
+      "accounts payable - a/p",
+      "trade payables",
+      "trade creditors",
+      "creditors",
+      "payables",
+      "supplier balances",
+      "amounts due to suppliers",
+      "bills payable"
+    ],
+    "description": "Amounts owed to suppliers and vendors for goods or services received on credit"
+  },
+  {
+    "slug": "credit_cards",
+    "canonical_name": "Credit Card",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "aliases": [
+      "credit card",
+      "credit card payable",
+      "credit cards",
+      "credit card control account",
+      "visa",
+      "mastercard",
+      "amex",
+      "business credit card",
+      "corporate credit card",
+      "credit card liability"
+    ],
+    "description": "Outstanding balances on business credit cards"
+  },
+  {
+    "slug": "accrued_liabilities",
+    "canonical_name": "Accrued Liabilities",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "aliases": [
+      "accrued liabilities",
+      "accrued expenses",
+      "accruals",
+      "accrued charges",
+      "accrued expenses payable",
+      "accrued obligations",
+      "expenses payable",
+      "accrued costs"
+    ],
+    "description": "Expenses incurred but not yet paid or invoiced at the end of an accounting period"
+  },
+  {
+    "slug": "payroll_liabilities",
+    "canonical_name": "Payroll Liabilities",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "aliases": [
+      "payroll liabilities",
+      "payroll tax payable",
+      "payroll clearing",
+      "wages payable",
+      "wages payable - payroll",
+      "salaries payable",
+      "employee deductions payable",
+      "PAYE payable",
+      "PAYG withholding payable",
+      "NIC payable",
+      "superannuation payable",
+      "employment taxes payable"
+    ],
+    "description": "Amounts owed for employee wages, withholdings, and employer payroll obligations"
+  },
+  {
+    "slug": "sales_tax_payable",
+    "canonical_name": "Sales Tax Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "aliases": [
+      "sales tax payable",
+      "sales tax",
+      "GST payable",
+      "VAT payable",
+      "VAT",
+      "HST payable",
+      "GST/HST payable",
+      "sales tax liability",
+      "tax collected",
+      "output tax",
+      "board of equalization payable",
+      "global tax payable"
+    ],
+    "description": "Sales tax, VAT, or GST collected from customers that is owed to tax authorities"
+  },
+  {
+    "slug": "income_tax_payable",
+    "canonical_name": "Income Tax Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "aliases": [
+      "income tax payable",
+      "income taxes payable",
+      "corporation tax",
+      "provision for corporation tax",
+      "corporate tax payable",
+      "federal income tax payable",
+      "state/local income tax payable",
+      "provision for income tax",
+      "company tax payable",
+      "tax payable"
+    ],
+    "description": "Income taxes owed to federal, state, or local tax authorities"
+  },
+  {
+    "slug": "short_term_loans",
+    "canonical_name": "Short-Term Loans",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "aliases": [
+      "short-term loan",
+      "line of credit",
+      "bank overdraft",
+      "overdraft",
+      "notes payable - current",
+      "loan payable",
+      "short-term borrowings",
+      "revolving credit",
+      "working capital loan",
+      "current portion of long-term debt",
+      "bridge loan"
+    ],
+    "description": "Loans and credit facilities due within one year"
+  },
+  {
+    "slug": "long_term_loans",
+    "canonical_name": "Long-Term Loans",
+    "type": "Liability",
+    "subtype": "Long-Term Liability",
+    "aliases": [
+      "long-term loan",
+      "loan",
+      "loan payable",
+      "notes payable",
+      "bank loan",
+      "term loan",
+      "long-term debt",
+      "long-term borrowings",
+      "business loan",
+      "SBA loan",
+      "equipment loan",
+      "shareholder notes payable",
+      "hire purchase loan"
+    ],
+    "description": "Loans and borrowings with a maturity date beyond one year"
+  },
+  {
+    "slug": "mortgage_payable",
+    "canonical_name": "Mortgage Payable",
+    "type": "Liability",
+    "subtype": "Long-Term Liability",
+    "aliases": [
+      "mortgage payable",
+      "mortgage",
+      "mortgage loan",
+      "property mortgage",
+      "real estate mortgage",
+      "building mortgage",
+      "commercial mortgage",
+      "mortgage liability"
+    ],
+    "description": "Outstanding balance on mortgage loans secured by business real property"
+  },
+  {
+    "slug": "deferred_revenue",
+    "canonical_name": "Deferred Revenue",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "aliases": [
+      "deferred revenue",
+      "unearned revenue",
+      "deferred income",
+      "unearned income",
+      "revenue received in advance",
+      "income in advance",
+      "customer deposits",
+      "advance payments received",
+      "prepayments received",
+      "contract liabilities",
+      "deposits from customers"
+    ],
+    "description": "Payments received from customers before goods or services have been delivered"
+  },
+  {
+    "slug": "other_current_liabilities",
+    "canonical_name": "Other Current Liabilities",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "aliases": [
+      "other current liabilities",
+      "other current liability",
+      "sundry creditors",
+      "miscellaneous current liabilities",
+      "other payables",
+      "current liabilities - other"
+    ],
+    "description": "Short-term obligations not classified in other specific liability categories"
+  },
+  {
+    "slug": "owners_equity",
+    "canonical_name": "Owner's Equity",
+    "type": "Equity",
+    "subtype": "Owner's Equity",
+    "aliases": [
+      "owner's equity",
+      "owner's investment",
+      "owners contribution",
+      "owner's capital",
+      "proprietor's capital",
+      "capital account",
+      "partner's equity",
+      "partner contributions",
+      "member's equity",
+      "contributed capital",
+      "net assets",
+      "owner a funds introduced"
+    ],
+    "description": "The owner's investment in the business, representing the residual interest in assets after liabilities"
+  },
+  {
+    "slug": "owners_draw",
+    "canonical_name": "Owner's Draw",
+    "type": "Equity",
+    "subtype": "Owner's Equity",
+    "aliases": [
+      "owner's draw",
+      "owners draw",
+      "owner's drawings",
+      "owner a drawings",
+      "drawings",
+      "personal drawings",
+      "distributions",
+      "partner's draw",
+      "partner distributions",
+      "member's draw",
+      "shareholder distributions",
+      "owner withdrawals",
+      "director's loan account"
+    ],
+    "description": "Withdrawals of cash or assets by the owner for personal use"
+  },
+  {
+    "slug": "retained_earnings",
+    "canonical_name": "Retained Earnings",
+    "type": "Equity",
+    "subtype": "Owner's Equity",
+    "aliases": [
+      "retained earnings",
+      "accumulated profits",
+      "retained profits",
+      "profit and loss account",
+      "undistributed profits",
+      "accumulated surplus",
+      "net income - retained",
+      "earnings retained in business",
+      "prior year earnings"
+    ],
+    "description": "Cumulative net income retained in the business after distributions to owners"
+  },
+  {
+    "slug": "common_stock",
+    "canonical_name": "Common Stock",
+    "type": "Equity",
+    "subtype": "Stockholders' Equity",
+    "aliases": [
+      "common stock",
+      "ordinary shares",
+      "share capital",
+      "capital stock",
+      "issued shares",
+      "common shares",
+      "equity shares",
+      "paid-up capital",
+      "called up share capital",
+      "capital - ordinary shares"
+    ],
+    "description": "Par value of common stock issued to shareholders"
+  },
+  {
+    "slug": "additional_paid_in_capital",
+    "canonical_name": "Additional Paid-In Capital",
+    "type": "Equity",
+    "subtype": "Stockholders' Equity",
+    "aliases": [
+      "additional paid-in capital",
+      "paid-in capital or surplus",
+      "share premium",
+      "share premium account",
+      "capital surplus",
+      "paid-in capital in excess of par",
+      "APIC",
+      "capital in excess of par value",
+      "contributed surplus",
+      "additional capital"
+    ],
+    "description": "Amount received from shareholders in excess of the par value of stock issued"
+  },
+  {
+    "slug": "opening_balance_equity",
+    "canonical_name": "Opening Balance Equity",
+    "type": "Equity",
+    "subtype": "Owner's Equity",
+    "aliases": [
+      "opening balance equity",
+      "opening balance",
+      "historical balances",
+      "historical adjustment",
+      "conversion balances",
+      "migration balance",
+      "suspense",
+      "brought forward balance",
+      "beginning balance equity"
+    ],
+    "description": "Temporary equity account used to balance entries when migrating to a new accounting system"
+  },
+  {
+    "slug": "sales_revenue",
+    "canonical_name": "Sales Revenue",
+    "type": "Revenue",
+    "subtype": "Operating Revenue",
+    "aliases": [
+      "sales",
+      "revenue",
+      "sales revenue",
+      "sales income",
+      "sales of product income",
+      "product sales",
+      "merchandise sales",
+      "gross sales",
+      "trading income",
+      "turnover",
+      "product revenue"
+    ],
+    "description": "Income earned from selling goods or products in the ordinary course of business"
+  },
+  {
+    "slug": "service_revenue",
+    "canonical_name": "Service Revenue",
+    "type": "Revenue",
+    "subtype": "Operating Revenue",
+    "aliases": [
+      "service revenue",
+      "services",
+      "service income",
+      "service/fee income",
+      "fee income",
+      "professional fees earned",
+      "consulting revenue",
+      "billable services",
+      "service sales",
+      "fees earned",
+      "revenue - services"
+    ],
+    "description": "Income earned from providing services in the ordinary course of business"
+  },
+  {
+    "slug": "interest_income",
+    "canonical_name": "Interest Income",
+    "type": "Revenue",
+    "subtype": "Other Revenue",
+    "aliases": [
+      "interest income",
+      "interest earned",
+      "interest received",
+      "bank interest",
+      "investment income",
+      "finance income",
+      "interest revenue",
+      "deposit interest",
+      "dividend income"
+    ],
+    "description": "Income earned from interest on bank accounts, loans, or investments"
+  },
+  {
+    "slug": "rental_income",
+    "canonical_name": "Rental Income",
+    "type": "Revenue",
+    "subtype": "Other Revenue",
+    "aliases": [
+      "rental income",
+      "rent received",
+      "rent receivable",
+      "lease income",
+      "property rental income",
+      "sublease income",
+      "real estate income",
+      "rental revenue"
+    ],
+    "description": "Income earned from renting or leasing property or equipment to others"
+  },
+  {
+    "slug": "other_income",
+    "canonical_name": "Other Income",
+    "type": "Revenue",
+    "subtype": "Other Revenue",
+    "aliases": [
+      "other income",
+      "other revenue",
+      "other miscellaneous income",
+      "miscellaneous income",
+      "sundry income",
+      "non-operating income",
+      "gain on sale of assets",
+      "extraordinary income",
+      "incidental income",
+      "other primary income"
+    ],
+    "description": "Income from activities outside the primary business operations"
+  },
+  {
+    "slug": "discounts_given",
+    "canonical_name": "Discounts Given",
+    "type": "Revenue",
+    "subtype": "Contra Revenue",
+    "aliases": [
+      "discounts given",
+      "discounts/refunds given",
+      "sales discounts",
+      "trade discounts",
+      "cash discounts",
+      "early payment discounts",
+      "prompt payment discounts",
+      "discounts allowed",
+      "volume discounts",
+      "discount on sales"
+    ],
+    "description": "Reductions in sales revenue granted to customers for early payment or volume purchases"
+  },
+  {
+    "slug": "returns_allowances",
+    "canonical_name": "Sales Returns & Allowances",
+    "type": "Revenue",
+    "subtype": "Contra Revenue",
+    "aliases": [
+      "sales returns and allowances",
+      "returns and allowances",
+      "sales returns",
+      "customer returns",
+      "refunds given",
+      "credit notes issued",
+      "sales allowances",
+      "returns & refunds",
+      "product returns"
+    ],
+    "description": "Revenue reversals from returned goods or price reductions granted to customers"
+  },
+  {
+    "slug": "cost_of_goods_sold",
+    "canonical_name": "Cost of Goods Sold",
+    "type": "Expense",
+    "subtype": "Cost of Goods Sold",
+    "aliases": [
+      "cost of goods sold",
+      "COGS",
+      "cost of sales",
+      "cost of revenue",
+      "direct costs",
+      "direct expenses",
+      "cost of products sold",
+      "purchases",
+      "materials cost",
+      "direct materials",
+      "supplies & materials - COGS",
+      "purchase - cost of sales"
+    ],
+    "description": "Direct costs of producing or purchasing goods that were sold during the period"
+  },
+  {
+    "slug": "advertising_marketing",
+    "canonical_name": "Advertising & Marketing",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "advertising",
+      "marketing",
+      "advertising/promotional",
+      "advertising & marketing",
+      "advertising and promotion",
+      "marketing expense",
+      "promotional expenses",
+      "advertising expense",
+      "ad spend",
+      "digital marketing",
+      "publicity"
+    ],
+    "description": "Costs of promoting the business including advertising, marketing campaigns, and promotional materials"
+  },
+  {
+    "slug": "bank_charges",
+    "canonical_name": "Bank Charges & Fees",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "bank charges",
+      "bank service charges",
+      "bank fees",
+      "bank charges & fees",
+      "bank charges and fees",
+      "service charges",
+      "merchant fees",
+      "processing fees",
+      "payment processing fees",
+      "credit card processing fees",
+      "transaction fees",
+      "finance costs"
+    ],
+    "description": "Fees charged by banks and payment processors for account maintenance and transactions"
+  },
+  {
+    "slug": "commissions",
+    "canonical_name": "Commissions",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "commissions",
+      "commissions & fees",
+      "sales commissions",
+      "commission expense",
+      "agent commissions",
+      "broker fees",
+      "referral fees",
+      "staff commission",
+      "commissions paid"
+    ],
+    "description": "Payments to employees or agents based on a percentage of sales or transactions"
+  },
+  {
+    "slug": "consulting_fees",
+    "canonical_name": "Consulting Fees",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "consulting fees",
+      "consulting",
+      "consultancy fees",
+      "consulting & accounting",
+      "consulting expense",
+      "contractor fees",
+      "subcontractors",
+      "outside services",
+      "professional consultants",
+      "freelance fees",
+      "contract labor"
+    ],
+    "description": "Fees paid to external consultants and independent contractors for professional services"
+  },
+  {
+    "slug": "depreciation",
+    "canonical_name": "Depreciation Expense",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "depreciation expense",
+      "depreciation",
+      "depreciation & amortization",
+      "amortization expense",
+      "depreciation and amortisation",
+      "asset depreciation",
+      "capital allowances",
+      "wear and tear allowance",
+      "amortization"
+    ],
+    "description": "Systematic allocation of the cost of tangible and intangible assets over their useful lives"
+  },
+  {
+    "slug": "dues_subscriptions",
+    "canonical_name": "Dues & Subscriptions",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "dues & subscriptions",
+      "dues and subscriptions",
+      "subscriptions",
+      "membership fees",
+      "professional memberships",
+      "software subscriptions",
+      "trade associations",
+      "annual dues",
+      "subscription fees",
+      "SaaS subscriptions"
+    ],
+    "description": "Recurring fees for professional memberships, trade associations, and software subscriptions"
+  },
+  {
+    "slug": "education_training",
+    "canonical_name": "Education & Training",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "education & training",
+      "education and training",
+      "training",
+      "staff training",
+      "professional development",
+      "continuing education",
+      "seminars & conferences",
+      "workshops",
+      "employee training",
+      "tuition reimbursement",
+      "course fees"
+    ],
+    "description": "Costs for employee training, professional development, and educational programs"
+  },
+  {
+    "slug": "insurance_general",
+    "canonical_name": "Insurance - General",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "insurance",
+      "insurance - general",
+      "business insurance",
+      "general insurance",
+      "liability insurance",
+      "property insurance",
+      "commercial insurance",
+      "insurance expense",
+      "insurance premiums",
+      "workers compensation insurance",
+      "professional indemnity insurance"
+    ],
+    "description": "Premiums for business insurance policies including general liability, property, and professional indemnity"
+  },
+  {
+    "slug": "insurance_health",
+    "canonical_name": "Insurance - Health",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "insurance - health",
+      "health insurance",
+      "employee health insurance",
+      "medical insurance",
+      "group health insurance",
+      "dental insurance",
+      "vision insurance",
+      "employee health benefits",
+      "healthcare premiums",
+      "private health insurance"
+    ],
+    "description": "Premiums for employee health, dental, and vision insurance plans"
+  },
+  {
+    "slug": "interest_expense",
+    "canonical_name": "Interest Expense",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "interest expense",
+      "interest paid",
+      "finance costs",
+      "interest on loans",
+      "loan interest",
+      "mortgage interest",
+      "interest charges",
+      "finance charges",
+      "borrowing costs",
+      "interest & bank charges"
+    ],
+    "description": "Interest costs incurred on business loans, credit lines, and other borrowings"
+  },
+  {
+    "slug": "legal_professional_fees",
+    "canonical_name": "Legal & Professional Fees",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "legal & professional fees",
+      "legal and professional fees",
+      "legal fees",
+      "professional fees",
+      "legal expenses",
+      "accounting fees",
+      "audit fees",
+      "audit & accountancy fees",
+      "legal & accounting",
+      "solicitor fees",
+      "attorney fees",
+      "tax preparation fees"
+    ],
+    "description": "Fees paid to attorneys, accountants, auditors, and other professional advisors"
+  },
+  {
+    "slug": "meals_entertainment",
+    "canonical_name": "Meals & Entertainment",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "meals & entertainment",
+      "meals and entertainment",
+      "entertainment",
+      "entertainment meals",
+      "travel meals",
+      "business meals",
+      "client entertainment",
+      "dining expenses",
+      "food & beverage",
+      "entertaining",
+      "hospitality",
+      "staff amenities"
+    ],
+    "description": "Costs of business meals, client entertainment, and employee-related food and hospitality"
+  },
+  {
+    "slug": "office_supplies",
+    "canonical_name": "Office Supplies & Expenses",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "office supplies",
+      "office expenses",
+      "office supplies & software",
+      "office/general administrative expenses",
+      "stationery",
+      "office materials",
+      "general office expenses",
+      "consumables",
+      "small equipment & tools",
+      "office sundries",
+      "supplies & materials"
+    ],
+    "description": "Costs of office consumables, stationery, and small items expensed immediately"
+  },
+  {
+    "slug": "payroll_wages",
+    "canonical_name": "Payroll & Wages",
+    "type": "Expense",
+    "subtype": "Payroll Expense",
+    "aliases": [
+      "payroll expenses",
+      "wages & salaries",
+      "wages and salaries",
+      "salaries",
+      "gross wages",
+      "wages",
+      "employee compensation",
+      "payroll - salaries & wages",
+      "staff costs",
+      "compensation expense",
+      "labour costs",
+      "directors' remuneration"
+    ],
+    "description": "Gross wages, salaries, and compensation paid to employees"
+  },
+  {
+    "slug": "payroll_taxes",
+    "canonical_name": "Payroll Taxes",
+    "type": "Expense",
+    "subtype": "Payroll Expense",
+    "aliases": [
+      "payroll taxes",
+      "payroll tax expense",
+      "employer taxes",
+      "employers national insurance",
+      "employer's NI contributions",
+      "FICA",
+      "FUTA",
+      "SUTA",
+      "employment taxes",
+      "social security tax",
+      "medicare tax",
+      "superannuation expense"
+    ],
+    "description": "Employer's share of payroll taxes including social security, Medicare, and unemployment taxes"
+  },
+  {
+    "slug": "pension_benefits",
+    "canonical_name": "Pension & Employee Benefits",
+    "type": "Expense",
+    "subtype": "Payroll Expense",
+    "aliases": [
+      "pension & benefits",
+      "employee benefits",
+      "pension costs",
+      "pensions costs",
+      "retirement plan contributions",
+      "401(k) contributions",
+      "pension expense",
+      "superannuation",
+      "KiwiSaver contributions",
+      "staff benefits",
+      "fringe benefits",
+      "employee benefit programs"
+    ],
+    "description": "Employer contributions to retirement plans and other employee benefit programs"
+  },
+  {
+    "slug": "postage_shipping",
+    "canonical_name": "Postage & Shipping",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "postage & shipping",
+      "postage and shipping",
+      "postage & delivery",
+      "postage, freight & courier",
+      "shipping, freight & delivery",
+      "shipping expense",
+      "freight & delivery",
+      "courier costs",
+      "mailing costs",
+      "carriage outwards",
+      "delivery charges",
+      "fulfillment costs",
+      "postage and carriage"
+    ],
+    "description": "Costs of mailing, shipping, and delivering products to customers"
+  },
+  {
+    "slug": "printing",
+    "canonical_name": "Printing & Reproduction",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "printing",
+      "printing & reproduction",
+      "printing costs",
+      "printing & stationery",
+      "printing and stationery",
+      "copy costs",
+      "document printing",
+      "printing expenses",
+      "photocopying",
+      "reprographics"
+    ],
+    "description": "Costs of printing, copying, and reproducing business documents and materials"
+  },
+  {
+    "slug": "rent_lease",
+    "canonical_name": "Rent & Lease",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "rent or lease",
+      "rent expense",
+      "rent",
+      "lease expense",
+      "office rent",
+      "rent & rates",
+      "rates",
+      "property lease",
+      "premises rent",
+      "rent or lease of buildings",
+      "rent or lease payments",
+      "operating lease payments",
+      "operating lease expense"
+    ],
+    "description": "Costs of renting or leasing office space, equipment, or other business property"
+  },
+  {
+    "slug": "repairs_maintenance",
+    "canonical_name": "Repairs & Maintenance",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "repairs & maintenance",
+      "repairs and maintenance",
+      "repair & maintenance",
+      "maintenance expense",
+      "building maintenance",
+      "equipment maintenance",
+      "repairs & renewals",
+      "upkeep costs",
+      "general repairs",
+      "facility maintenance",
+      "property maintenance"
+    ],
+    "description": "Costs of repairing and maintaining business property, equipment, and facilities"
+  },
+  {
+    "slug": "taxes_licenses",
+    "canonical_name": "Taxes & Licenses",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "taxes & licenses",
+      "taxes and licenses",
+      "taxes paid",
+      "business licenses",
+      "licenses & permits",
+      "general rates",
+      "property taxes",
+      "franchise tax",
+      "business rates",
+      "council rates",
+      "regulatory fees",
+      "government fees"
+    ],
+    "description": "Non-income taxes, business licenses, permits, and government regulatory fees"
+  },
+  {
+    "slug": "telephone",
+    "canonical_name": "Telephone & Communications",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "telephone",
+      "telephone & internet",
+      "telephone and internet",
+      "telephone expense",
+      "communications",
+      "phone & internet",
+      "telecommunications",
+      "mobile phone",
+      "internet service",
+      "VoIP",
+      "broadband"
+    ],
+    "description": "Costs of telephone, internet, and other communications services"
+  },
+  {
+    "slug": "travel",
+    "canonical_name": "Travel Expense",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "travel",
+      "travel expense",
+      "business travel",
+      "travel & subsistence",
+      "travel expenses",
+      "travel - national",
+      "travel - international",
+      "airfare",
+      "lodging",
+      "accommodation",
+      "hotel & travel",
+      "flights"
+    ],
+    "description": "Costs of business travel including airfare, lodging, ground transportation, and per diems"
+  },
+  {
+    "slug": "transportation_vehicle",
+    "canonical_name": "Vehicle & Transportation Expenses",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "automobile expense",
+      "automobile expenses",
+      "auto",
+      "motor vehicle expenses",
+      "vehicle expenses",
+      "car expenses",
+      "car & truck expenses",
+      "car and truck expenses",
+      "auto expense",
+      "fuel expense",
+      "gas & oil",
+      "mileage expense",
+      "fleet costs",
+      "vehicle running costs",
+      "motor expenses",
+      "transportation expense"
+    ],
+    "description": "Costs related to business vehicle use including fuel, maintenance, insurance, and mileage"
+  },
+  {
+    "slug": "utilities",
+    "canonical_name": "Utilities",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "utilities",
+      "utility expense",
+      "light, power, heating",
+      "light, power & heating",
+      "electricity",
+      "gas & electric",
+      "gas and electricity",
+      "water",
+      "light and heat",
+      "power",
+      "energy costs",
+      "utility bills"
+    ],
+    "description": "Costs of electricity, gas, water, and other utility services for business premises"
+  },
+  {
+    "slug": "charitable_contributions",
+    "canonical_name": "Charitable Contributions",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "charitable contributions",
+      "donations",
+      "charitable donations",
+      "charitable and political donations",
+      "gifts & donations",
+      "philanthropic contributions",
+      "corporate giving",
+      "sponsorships",
+      "community contributions"
+    ],
+    "description": "Donations and contributions made to charitable organizations and causes"
+  },
+  {
+    "slug": "bad_debt",
+    "canonical_name": "Bad Debt Expense",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "bad debt expense",
+      "bad debts",
+      "bad debt",
+      "uncollectible accounts expense",
+      "write-offs",
+      "doubtful debts expense",
+      "debt write-off",
+      "provision for bad debts",
+      "impairment of receivables",
+      "credit losses"
+    ],
+    "description": "Losses from customer accounts receivable determined to be uncollectible"
+  },
+  {
+    "slug": "miscellaneous_expense",
+    "canonical_name": "Miscellaneous Expense",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "aliases": [
+      "miscellaneous expense",
+      "miscellaneous",
+      "other miscellaneous expense",
+      "sundry expenses",
+      "general expenses",
+      "other expenses",
+      "other miscellaneous service cost",
+      "other operating expenses",
+      "incidental expenses",
+      "unclassified expenses"
+    ],
+    "description": "Business expenses not classified in other specific expense categories"
+  }
+]
