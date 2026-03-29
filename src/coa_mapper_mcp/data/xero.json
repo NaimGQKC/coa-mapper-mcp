@@ -1,0 +1,794 @@
+[
+  {
+    "code": "090",
+    "name": "Business Bank Account",
+    "type": "Asset",
+    "subtype": "Bank",
+    "gaap_ref": "checking",
+    "keywords": ["bank", "checking", "current account", "business account"],
+    "description": "Primary business bank account"
+  },
+  {
+    "code": "091",
+    "name": "Business Savings Account",
+    "type": "Asset",
+    "subtype": "Bank",
+    "gaap_ref": "savings",
+    "keywords": ["savings", "deposit account", "interest bearing"],
+    "description": "Business savings account"
+  },
+  {
+    "code": "092",
+    "name": "Petty Cash",
+    "type": "Asset",
+    "subtype": "Bank",
+    "gaap_ref": "cash",
+    "keywords": ["petty cash", "cash", "cash on hand", "float"],
+    "description": "Cash kept on hand for small expenses"
+  },
+  {
+    "code": "200",
+    "name": "Sales",
+    "type": "Revenue",
+    "subtype": "Revenue",
+    "gaap_ref": "sales_revenue",
+    "keywords": ["sales", "revenue", "income", "turnover"],
+    "description": "Income from the sale of goods and services"
+  },
+  {
+    "code": "260",
+    "name": "Other Revenue",
+    "type": "Revenue",
+    "subtype": "Revenue",
+    "gaap_ref": "other_income",
+    "keywords": ["other revenue", "other income", "sundry income", "miscellaneous income"],
+    "description": "Revenue from sources not related to primary business operations"
+  },
+  {
+    "code": "270",
+    "name": "Interest Income",
+    "type": "Revenue",
+    "subtype": "Revenue",
+    "gaap_ref": "interest_income",
+    "keywords": ["interest income", "interest earned", "bank interest"],
+    "description": "Interest earned on bank accounts and investments"
+  },
+  {
+    "code": "310",
+    "name": "Cost of Goods Sold",
+    "type": "Expense",
+    "subtype": "Direct Costs",
+    "gaap_ref": "cost_of_goods_sold",
+    "keywords": ["COGS", "cost of goods", "cost of sales", "direct cost"],
+    "description": "Direct costs attributable to goods and services sold"
+  },
+  {
+    "code": "320",
+    "name": "Direct Wages",
+    "type": "Expense",
+    "subtype": "Direct Costs",
+    "gaap_ref": "cost_of_goods_sold",
+    "keywords": ["direct wages", "direct labour", "production wages", "direct labor"],
+    "description": "Wages for staff directly involved in production or service delivery"
+  },
+  {
+    "code": "321",
+    "name": "Subcontractors",
+    "type": "Expense",
+    "subtype": "Direct Costs",
+    "gaap_ref": "cost_of_goods_sold",
+    "keywords": ["subcontractors", "subcontract", "outsourced labour", "contract work"],
+    "description": "Payments to subcontractors for direct project work"
+  },
+  {
+    "code": "325",
+    "name": "Direct Expenses",
+    "type": "Expense",
+    "subtype": "Direct Costs",
+    "gaap_ref": "cost_of_goods_sold",
+    "keywords": ["direct expenses", "direct costs", "project costs", "job costs"],
+    "description": "Other expenses directly attributable to production or service delivery"
+  },
+  {
+    "code": "400",
+    "name": "Advertising & Marketing",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "advertising_marketing",
+    "keywords": ["advertising", "marketing", "promotion", "ads", "campaign"],
+    "description": "Advertising, marketing, and promotional expenses"
+  },
+  {
+    "code": "401",
+    "name": "Audit & Accountancy Fees",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "legal_professional_fees",
+    "keywords": ["audit", "accountancy", "accounting fees", "bookkeeping"],
+    "description": "Fees for audit, accountancy, and bookkeeping services"
+  },
+  {
+    "code": "404",
+    "name": "Bank Fees",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "bank_charges",
+    "keywords": ["bank fees", "bank charges", "service charges", "transaction fees"],
+    "description": "Bank service charges and transaction fees"
+  },
+  {
+    "code": "408",
+    "name": "Cleaning",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "miscellaneous_expense",
+    "keywords": ["cleaning", "janitorial", "office cleaning", "hygiene"],
+    "description": "Office and premises cleaning costs"
+  },
+  {
+    "code": "412",
+    "name": "Consulting & Accounting",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "consulting_fees",
+    "keywords": ["consulting", "consultant", "advisory", "accounting"],
+    "description": "Fees for consulting and advisory services"
+  },
+  {
+    "code": "416",
+    "name": "Depreciation Expense",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "depreciation",
+    "keywords": ["depreciation", "amortisation", "write-down", "asset depreciation"],
+    "description": "Depreciation of tangible fixed assets"
+  },
+  {
+    "code": "418",
+    "name": "Charitable & Political Donations",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "charitable_contributions",
+    "keywords": ["charity", "donation", "charitable", "political", "contribution"],
+    "description": "Donations to charitable and political organisations"
+  },
+  {
+    "code": "420",
+    "name": "Entertainment - 100% Business",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "meals_entertainment",
+    "keywords": ["entertainment", "client entertainment", "business entertainment"],
+    "description": "Entertainment costs that are fully business-related"
+  },
+  {
+    "code": "424",
+    "name": "Entertainment - 0%",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "meals_entertainment",
+    "keywords": ["entertainment", "staff entertainment", "non-deductible entertainment"],
+    "description": "Non-deductible entertainment and hospitality costs"
+  },
+  {
+    "code": "425",
+    "name": "Postage, Freight & Courier",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "postage_shipping",
+    "keywords": ["postage", "freight", "courier", "shipping", "delivery", "Royal Mail"],
+    "description": "Postage, freight, and courier delivery costs"
+  },
+  {
+    "code": "429",
+    "name": "General Expenses",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "miscellaneous_expense",
+    "keywords": ["general expenses", "sundry", "miscellaneous", "other expenses"],
+    "description": "General overhead expenses not classified elsewhere"
+  },
+  {
+    "code": "433",
+    "name": "Insurance",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "insurance_general",
+    "keywords": ["insurance", "business insurance", "liability insurance", "property insurance"],
+    "description": "General business insurance premiums"
+  },
+  {
+    "code": "437",
+    "name": "Interest Paid",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "interest_expense",
+    "keywords": ["interest paid", "interest expense", "loan interest", "finance charges"],
+    "description": "Interest paid on loans and overdrafts"
+  },
+  {
+    "code": "441",
+    "name": "Legal Expenses",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "legal_professional_fees",
+    "keywords": ["legal", "solicitor", "lawyer", "attorney", "legal fees"],
+    "description": "Legal and solicitor fees"
+  },
+  {
+    "code": "445",
+    "name": "Light, Power, Heating",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "utilities",
+    "keywords": ["light", "power", "heating", "electricity", "gas", "energy", "utilities"],
+    "description": "Electricity, gas, and heating costs for business premises"
+  },
+  {
+    "code": "449",
+    "name": "Motor Vehicle Expenses",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "transportation_vehicle",
+    "keywords": ["motor vehicle", "car", "vehicle", "fuel", "petrol", "mileage", "auto"],
+    "description": "Running costs for business motor vehicles"
+  },
+  {
+    "code": "457",
+    "name": "Operating Lease Payments",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "rent_lease",
+    "keywords": ["operating lease", "lease payments", "equipment lease", "hire"],
+    "description": "Payments for operating leases on equipment and vehicles"
+  },
+  {
+    "code": "461",
+    "name": "Printing & Stationery",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "printing",
+    "keywords": ["printing", "stationery", "paper", "copying", "office print"],
+    "description": "Printing, stationery, and copying costs"
+  },
+  {
+    "code": "463",
+    "name": "IT Software & Consumables",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "office_supplies",
+    "keywords": ["software", "IT", "consumables", "computer supplies", "SaaS", "apps"],
+    "description": "IT software subscriptions and computer consumables"
+  },
+  {
+    "code": "465",
+    "name": "Rates",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "taxes_licenses",
+    "keywords": ["rates", "business rates", "council tax", "property tax"],
+    "description": "Business rates and local property taxes"
+  },
+  {
+    "code": "469",
+    "name": "Rent",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "rent_lease",
+    "keywords": ["rent", "office rent", "premises rent", "lease"],
+    "description": "Rent for business premises"
+  },
+  {
+    "code": "473",
+    "name": "Repairs & Maintenance",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "repairs_maintenance",
+    "keywords": ["repairs", "maintenance", "fix", "upkeep", "servicing"],
+    "description": "Repairs and maintenance of business property and equipment"
+  },
+  {
+    "code": "477",
+    "name": "Salaries",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "payroll_wages",
+    "keywords": ["salaries", "wages", "payroll", "staff costs", "compensation"],
+    "description": "Employee salaries and wages"
+  },
+  {
+    "code": "478",
+    "name": "Directors' Remuneration",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "payroll_wages",
+    "keywords": ["directors", "remuneration", "director salary", "director pay"],
+    "description": "Salaries and fees paid to company directors"
+  },
+  {
+    "code": "479",
+    "name": "Employers National Insurance",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "payroll_taxes",
+    "keywords": ["national insurance", "NIC", "employer NI", "payroll tax"],
+    "description": "Employer national insurance contributions"
+  },
+  {
+    "code": "480",
+    "name": "Staff Training",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "education_training",
+    "keywords": ["training", "staff training", "education", "CPD", "development"],
+    "description": "Staff training and professional development costs"
+  },
+  {
+    "code": "482",
+    "name": "Pensions Costs",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "pension_benefits",
+    "keywords": ["pensions", "pension costs", "retirement", "auto enrolment", "benefits"],
+    "description": "Employer pension contributions"
+  },
+  {
+    "code": "483",
+    "name": "Medical Insurance",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "insurance_health",
+    "keywords": ["medical insurance", "health insurance", "private medical", "BUPA"],
+    "description": "Employee medical and health insurance premiums"
+  },
+  {
+    "code": "485",
+    "name": "Subscriptions",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "dues_subscriptions",
+    "keywords": ["subscriptions", "memberships", "dues", "professional bodies"],
+    "description": "Subscriptions to professional bodies and trade organisations"
+  },
+  {
+    "code": "489",
+    "name": "Telephone & Internet",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "telephone",
+    "keywords": ["telephone", "phone", "internet", "broadband", "mobile"],
+    "description": "Telephone, mobile phone, and internet costs"
+  },
+  {
+    "code": "493",
+    "name": "Travel - National",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "travel",
+    "keywords": ["travel", "domestic travel", "national travel", "rail", "train"],
+    "description": "Domestic business travel expenses"
+  },
+  {
+    "code": "494",
+    "name": "Travel - International",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "travel",
+    "keywords": ["international travel", "overseas travel", "flights", "airfare"],
+    "description": "International business travel expenses"
+  },
+  {
+    "code": "497",
+    "name": "Bad Debts",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "bad_debt",
+    "keywords": ["bad debts", "write-off", "uncollectible", "doubtful debts"],
+    "description": "Irrecoverable debts written off"
+  },
+  {
+    "code": "500",
+    "name": "Corporation Tax",
+    "type": "Expense",
+    "subtype": "Overhead",
+    "gaap_ref": "taxes_licenses",
+    "keywords": ["corporation tax", "company tax", "income tax", "tax expense"],
+    "description": "Corporation tax charge for the period"
+  },
+  {
+    "code": "610",
+    "name": "Accounts Receivable",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "gaap_ref": "accounts_receivable",
+    "keywords": ["accounts receivable", "trade debtors", "receivables", "debtors"],
+    "description": "Money owed by customers for goods and services"
+  },
+  {
+    "code": "611",
+    "name": "Less Provision for Doubtful Debts",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "gaap_ref": "allowance_doubtful_accounts",
+    "keywords": ["provision", "doubtful debts", "bad debt provision", "allowance"],
+    "description": "Provision for debts that may not be recoverable"
+  },
+  {
+    "code": "620",
+    "name": "Prepayments",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "gaap_ref": "prepaid_expenses",
+    "keywords": ["prepayments", "prepaid", "advance payments", "paid in advance"],
+    "description": "Expenses paid in advance of the period to which they relate"
+  },
+  {
+    "code": "630",
+    "name": "Inventory",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "gaap_ref": "inventory",
+    "keywords": ["inventory", "stock", "goods", "merchandise", "raw materials"],
+    "description": "Goods held for sale or materials for production"
+  },
+  {
+    "code": "710",
+    "name": "Office Equipment",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "furniture_equipment",
+    "keywords": ["office equipment", "furniture", "fixtures", "fittings"],
+    "description": "Office furniture, fixtures, and equipment"
+  },
+  {
+    "code": "711",
+    "name": "Less Accumulated Depreciation on Office Equipment",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "accumulated_depreciation_equipment",
+    "keywords": ["accumulated depreciation", "depreciation office equipment"],
+    "description": "Accumulated depreciation on office equipment"
+  },
+  {
+    "code": "720",
+    "name": "Computer Equipment",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "computer_equipment",
+    "keywords": ["computer", "IT equipment", "hardware", "servers", "laptops"],
+    "description": "Computers, servers, and IT hardware"
+  },
+  {
+    "code": "721",
+    "name": "Less Accumulated Depreciation on Computer Equipment",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "accumulated_depreciation_equipment",
+    "keywords": ["accumulated depreciation", "depreciation computer equipment"],
+    "description": "Accumulated depreciation on computer equipment"
+  },
+  {
+    "code": "740",
+    "name": "Buildings",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "buildings",
+    "keywords": ["buildings", "premises", "property", "freehold"],
+    "description": "Freehold and long leasehold buildings"
+  },
+  {
+    "code": "741",
+    "name": "Less Accumulated Depreciation on Buildings",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "accumulated_depreciation_buildings",
+    "keywords": ["accumulated depreciation", "depreciation buildings"],
+    "description": "Accumulated depreciation on buildings"
+  },
+  {
+    "code": "750",
+    "name": "Leasehold Improvements",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "buildings",
+    "keywords": ["leasehold improvements", "fit-out", "tenant improvements"],
+    "description": "Improvements made to leased premises"
+  },
+  {
+    "code": "751",
+    "name": "Less Accumulated Depreciation on Leasehold Improvements",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "accumulated_depreciation_buildings",
+    "keywords": ["accumulated depreciation", "depreciation leasehold"],
+    "description": "Accumulated depreciation on leasehold improvements"
+  },
+  {
+    "code": "760",
+    "name": "Motor Vehicles",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "vehicles",
+    "keywords": ["motor vehicles", "cars", "vans", "trucks", "vehicles"],
+    "description": "Business motor vehicles"
+  },
+  {
+    "code": "761",
+    "name": "Less Accumulated Depreciation on Motor Vehicles",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "accumulated_depreciation_vehicles",
+    "keywords": ["accumulated depreciation", "depreciation vehicles"],
+    "description": "Accumulated depreciation on motor vehicles"
+  },
+  {
+    "code": "764",
+    "name": "Plant & Machinery",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "furniture_equipment",
+    "keywords": ["plant", "machinery", "manufacturing equipment", "production equipment"],
+    "description": "Plant and machinery used in the business"
+  },
+  {
+    "code": "765",
+    "name": "Less Accumulated Depreciation on Plant & Machinery",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "accumulated_depreciation_equipment",
+    "keywords": ["accumulated depreciation", "depreciation plant", "depreciation machinery"],
+    "description": "Accumulated depreciation on plant and machinery"
+  },
+  {
+    "code": "770",
+    "name": "Intangibles",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "other_long_term_assets",
+    "keywords": ["intangibles", "goodwill", "patents", "trademarks", "intellectual property"],
+    "description": "Intangible assets including goodwill and intellectual property"
+  },
+  {
+    "code": "771",
+    "name": "Less Accumulated Amortisation on Intangibles",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "other_long_term_assets",
+    "keywords": ["amortisation", "amortization", "depreciation intangibles"],
+    "description": "Accumulated amortisation on intangible assets"
+  },
+  {
+    "code": "800",
+    "name": "Accounts Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "accounts_payable",
+    "keywords": ["accounts payable", "trade creditors", "payables", "creditors"],
+    "description": "Money owed to suppliers for goods and services"
+  },
+  {
+    "code": "801",
+    "name": "Unpaid Expense Claims",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "accounts_payable",
+    "keywords": ["expense claims", "staff expenses", "reimbursements", "unpaid claims"],
+    "description": "Employee expense claims awaiting reimbursement"
+  },
+  {
+    "code": "805",
+    "name": "Accruals",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "accrued_liabilities",
+    "keywords": ["accruals", "accrued expenses", "accrued liabilities"],
+    "description": "Expenses incurred but not yet invoiced or paid"
+  },
+  {
+    "code": "810",
+    "name": "Income in Advance",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "deferred_revenue",
+    "keywords": ["income in advance", "deferred income", "unearned revenue", "prepaid income"],
+    "description": "Payments received for goods or services not yet delivered"
+  },
+  {
+    "code": "811",
+    "name": "Credit Card Control Account",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "credit_cards",
+    "keywords": ["credit card", "charge card", "corporate card"],
+    "description": "Business credit card balances"
+  },
+  {
+    "code": "814",
+    "name": "Wages Payable - Payroll",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "payroll_liabilities",
+    "keywords": ["wages payable", "payroll", "net pay", "salaries payable"],
+    "description": "Net wages owed to employees"
+  },
+  {
+    "code": "815",
+    "name": "Employee Contribution to Benefits",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "payroll_liabilities",
+    "keywords": ["employee benefits", "benefit contributions", "pension deductions"],
+    "description": "Employee contributions to benefit schemes held pending payment"
+  },
+  {
+    "code": "820",
+    "name": "VAT",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "sales_tax_payable",
+    "keywords": ["VAT", "value added tax", "sales tax", "output tax", "input tax"],
+    "description": "VAT collected less VAT paid, net amount owed to HMRC"
+  },
+  {
+    "code": "825",
+    "name": "PAYE Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "payroll_liabilities",
+    "keywords": ["PAYE", "pay as you earn", "income tax withholding"],
+    "description": "PAYE income tax deducted from employees owed to HMRC"
+  },
+  {
+    "code": "826",
+    "name": "NIC Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "payroll_liabilities",
+    "keywords": ["NIC", "national insurance", "employee NI", "NI contributions"],
+    "description": "Employee national insurance contributions owed to HMRC"
+  },
+  {
+    "code": "830",
+    "name": "Provision for Corporation Tax",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "income_tax_payable",
+    "keywords": ["corporation tax", "tax provision", "income tax payable"],
+    "description": "Estimated corporation tax liability for the period"
+  },
+  {
+    "code": "835",
+    "name": "Directors' Loan Account",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "short_term_loans",
+    "keywords": ["directors loan", "director loan account", "DLA"],
+    "description": "Loans between the company and its directors"
+  },
+  {
+    "code": "840",
+    "name": "Historical Adjustment",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "other_current_liabilities",
+    "keywords": ["historical adjustment", "conversion balance", "opening adjustment"],
+    "description": "Adjustments from prior period or system conversion"
+  },
+  {
+    "code": "850",
+    "name": "Suspense",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "other_current_liabilities",
+    "keywords": ["suspense", "unallocated", "clearing account"],
+    "description": "Temporary holding account for unallocated transactions"
+  },
+  {
+    "code": "858",
+    "name": "Pensions Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "payroll_liabilities",
+    "keywords": ["pensions payable", "pension liability", "pension contributions"],
+    "description": "Pension contributions deducted from employees pending payment"
+  },
+  {
+    "code": "860",
+    "name": "Rounding",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "other_current_liabilities",
+    "keywords": ["rounding", "rounding adjustment", "penny rounding"],
+    "description": "Rounding adjustments on transactions"
+  },
+  {
+    "code": "868",
+    "name": "Earnings Orders Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "payroll_liabilities",
+    "keywords": ["earnings orders", "attachment of earnings", "garnishment"],
+    "description": "Court-ordered deductions from employee earnings"
+  },
+  {
+    "code": "877",
+    "name": "Tracking Transfers",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "other_current_liabilities",
+    "keywords": ["tracking transfers", "intercompany", "internal transfers"],
+    "description": "Internal tracking transfer account"
+  },
+  {
+    "code": "900",
+    "name": "Loan",
+    "type": "Liability",
+    "subtype": "Non-current Liability",
+    "gaap_ref": "long_term_loans",
+    "keywords": ["loan", "bank loan", "term loan", "long-term debt"],
+    "description": "Long-term bank loans and borrowings"
+  },
+  {
+    "code": "910",
+    "name": "Hire Purchase Loan",
+    "type": "Liability",
+    "subtype": "Non-current Liability",
+    "gaap_ref": "long_term_loans",
+    "keywords": ["hire purchase", "HP", "finance agreement", "asset finance"],
+    "description": "Hire purchase and finance agreements for assets"
+  },
+  {
+    "code": "920",
+    "name": "Deferred Tax",
+    "type": "Liability",
+    "subtype": "Non-current Liability",
+    "gaap_ref": "income_tax_payable",
+    "keywords": ["deferred tax", "deferred taxation", "timing differences"],
+    "description": "Deferred tax arising from timing differences"
+  },
+  {
+    "code": "947",
+    "name": "Student Loan Deductions Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "payroll_liabilities",
+    "keywords": ["student loan", "student loan deductions", "SLC"],
+    "description": "Student loan deductions from employees owed to SLC"
+  },
+  {
+    "code": "950",
+    "name": "Capital - Ordinary Shares",
+    "type": "Equity",
+    "subtype": "Equity",
+    "gaap_ref": "common_stock",
+    "keywords": ["capital", "ordinary shares", "share capital", "common stock"],
+    "description": "Nominal value of issued ordinary shares"
+  },
+  {
+    "code": "960",
+    "name": "Retained Earnings",
+    "type": "Equity",
+    "subtype": "Equity",
+    "gaap_ref": "retained_earnings",
+    "keywords": ["retained earnings", "accumulated profit", "reserves"],
+    "description": "Accumulated profits not distributed to shareholders"
+  },
+  {
+    "code": "970",
+    "name": "Owner A Funds Introduced",
+    "type": "Equity",
+    "subtype": "Equity",
+    "gaap_ref": "owners_equity",
+    "keywords": ["funds introduced", "owner investment", "capital introduced", "contribution"],
+    "description": "Capital introduced by the business owner"
+  },
+  {
+    "code": "980",
+    "name": "Owner A Drawings",
+    "type": "Equity",
+    "subtype": "Equity",
+    "gaap_ref": "owners_draw",
+    "keywords": ["drawings", "owner drawings", "withdrawals", "personal draw"],
+    "description": "Withdrawals by the business owner for personal use"
+  }
+]
