@@ -1,0 +1,623 @@
+[
+  {
+    "code": "1000",
+    "name": "Cash on Hand",
+    "type": "Asset",
+    "subtype": "Cash and Bank",
+    "gaap_ref": "cash",
+    "keywords": ["cash", "petty cash", "on hand"],
+    "description": "Physical cash held by the business"
+  },
+  {
+    "code": "1010",
+    "name": "Checking",
+    "type": "Asset",
+    "subtype": "Cash and Bank",
+    "gaap_ref": "checking",
+    "keywords": ["checking", "bank", "chequing"],
+    "description": "Primary business checking account"
+  },
+  {
+    "code": "1020",
+    "name": "Savings",
+    "type": "Asset",
+    "subtype": "Cash and Bank",
+    "gaap_ref": "savings",
+    "keywords": ["savings", "deposit"],
+    "description": "Business savings account"
+  },
+  {
+    "code": "1200",
+    "name": "Accounts Receivable",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "gaap_ref": "accounts_receivable",
+    "keywords": ["receivable", "AR", "owed", "due"],
+    "description": "Amounts owed to the business by customers"
+  },
+  {
+    "code": "1300",
+    "name": "Prepaid Expenses",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "gaap_ref": "prepaid_expenses",
+    "keywords": ["prepaid", "prepayment", "advance"],
+    "description": "Expenses paid in advance"
+  },
+  {
+    "code": "1310",
+    "name": "Inventory",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "gaap_ref": "inventory",
+    "keywords": ["inventory", "stock", "goods"],
+    "description": "Goods held for sale"
+  },
+  {
+    "code": "1320",
+    "name": "Undeposited Funds",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "gaap_ref": "undeposited_funds",
+    "keywords": ["undeposited", "clearing", "in transit"],
+    "description": "Funds received but not yet deposited"
+  },
+  {
+    "code": "1350",
+    "name": "Other Current Assets",
+    "type": "Asset",
+    "subtype": "Current Asset",
+    "gaap_ref": "other_current_assets",
+    "keywords": ["other", "current asset", "short term"],
+    "description": "Other short-term assets"
+  },
+  {
+    "code": "1400",
+    "name": "Security Deposits",
+    "type": "Asset",
+    "subtype": "Long Term Asset",
+    "gaap_ref": "security_deposits",
+    "keywords": ["deposit", "security"],
+    "description": "Deposits held as security"
+  },
+  {
+    "code": "1500",
+    "name": "Office Equipment",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "furniture_equipment",
+    "keywords": ["office", "equipment", "furniture", "fixtures"],
+    "description": "Office furniture and equipment"
+  },
+  {
+    "code": "1510",
+    "name": "Computer Equipment",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "computer_equipment",
+    "keywords": ["computer", "laptop", "hardware", "IT"],
+    "description": "Computers and related hardware"
+  },
+  {
+    "code": "1520",
+    "name": "Vehicles",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "vehicles",
+    "keywords": ["vehicle", "car", "truck", "auto"],
+    "description": "Business vehicles"
+  },
+  {
+    "code": "1530",
+    "name": "Buildings",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "buildings",
+    "keywords": ["building", "property", "real estate"],
+    "description": "Owned buildings and structures"
+  },
+  {
+    "code": "1540",
+    "name": "Land",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "land",
+    "keywords": ["land", "lot", "property"],
+    "description": "Land owned by the business"
+  },
+  {
+    "code": "1600",
+    "name": "Accumulated Depreciation - Buildings",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "accumulated_depreciation_buildings",
+    "keywords": ["depreciation", "buildings", "accumulated"],
+    "description": "Accumulated depreciation on buildings"
+  },
+  {
+    "code": "1610",
+    "name": "Accumulated Depreciation - Equipment",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "accumulated_depreciation_equipment",
+    "keywords": ["depreciation", "equipment", "accumulated"],
+    "description": "Accumulated depreciation on equipment"
+  },
+  {
+    "code": "1620",
+    "name": "Accumulated Depreciation - Vehicles",
+    "type": "Asset",
+    "subtype": "Fixed Asset",
+    "gaap_ref": "accumulated_depreciation_vehicles",
+    "keywords": ["depreciation", "vehicles", "accumulated"],
+    "description": "Accumulated depreciation on vehicles"
+  },
+  {
+    "code": "1700",
+    "name": "Other Long Term Assets",
+    "type": "Asset",
+    "subtype": "Long Term Asset",
+    "gaap_ref": "other_long_term_assets",
+    "keywords": ["other", "long term", "noncurrent"],
+    "description": "Other non-current assets"
+  },
+  {
+    "code": "2000",
+    "name": "Accounts Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "accounts_payable",
+    "keywords": ["payable", "AP", "bills", "owed"],
+    "description": "Amounts owed to vendors and suppliers"
+  },
+  {
+    "code": "2100",
+    "name": "Credit Cards",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "credit_cards",
+    "keywords": ["credit card", "visa", "mastercard", "amex"],
+    "description": "Credit card balances"
+  },
+  {
+    "code": "2200",
+    "name": "Accrued Liabilities",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "accrued_liabilities",
+    "keywords": ["accrued", "accrual", "outstanding"],
+    "description": "Expenses incurred but not yet paid"
+  },
+  {
+    "code": "2300",
+    "name": "Payroll Liabilities",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "payroll_liabilities",
+    "keywords": ["payroll", "wages payable", "salary"],
+    "description": "Payroll amounts owed to employees"
+  },
+  {
+    "code": "2310",
+    "name": "Sales Tax Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "sales_tax_payable",
+    "keywords": ["sales tax", "HST", "GST", "VAT"],
+    "description": "Sales tax collected but not yet remitted"
+  },
+  {
+    "code": "2320",
+    "name": "Income Tax Payable",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "income_tax_payable",
+    "keywords": ["income tax", "corporate tax", "tax payable"],
+    "description": "Income tax owed to government"
+  },
+  {
+    "code": "2350",
+    "name": "Other Current Liabilities",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "other_current_liabilities",
+    "keywords": ["other", "current liability", "short term"],
+    "description": "Other short-term liabilities"
+  },
+  {
+    "code": "2400",
+    "name": "Deferred Revenue",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "deferred_revenue",
+    "keywords": ["deferred", "unearned", "advance payment"],
+    "description": "Revenue received but not yet earned"
+  },
+  {
+    "code": "2500",
+    "name": "Short Term Loans",
+    "type": "Liability",
+    "subtype": "Current Liability",
+    "gaap_ref": "short_term_loans",
+    "keywords": ["loan", "short term", "line of credit"],
+    "description": "Loans due within one year"
+  },
+  {
+    "code": "2600",
+    "name": "Long Term Loans",
+    "type": "Liability",
+    "subtype": "Long Term Liability",
+    "gaap_ref": "long_term_loans",
+    "keywords": ["loan", "long term", "note payable"],
+    "description": "Loans due after one year"
+  },
+  {
+    "code": "2700",
+    "name": "Mortgage Payable",
+    "type": "Liability",
+    "subtype": "Long Term Liability",
+    "gaap_ref": "mortgage_payable",
+    "keywords": ["mortgage", "property loan"],
+    "description": "Mortgage on business property"
+  },
+  {
+    "code": "3000",
+    "name": "Owner's Equity",
+    "type": "Equity",
+    "subtype": "Owner's Equity",
+    "gaap_ref": "owners_equity",
+    "keywords": ["equity", "capital", "owner", "contributed"],
+    "description": "Owner's contributed capital"
+  },
+  {
+    "code": "3100",
+    "name": "Owner's Draw",
+    "type": "Equity",
+    "subtype": "Owner's Equity",
+    "gaap_ref": "owners_draw",
+    "keywords": ["draw", "withdrawal", "distribution"],
+    "description": "Owner's personal withdrawals"
+  },
+  {
+    "code": "3200",
+    "name": "Retained Earnings",
+    "type": "Equity",
+    "subtype": "Owner's Equity",
+    "gaap_ref": "retained_earnings",
+    "keywords": ["retained", "earnings", "accumulated profit"],
+    "description": "Accumulated net income retained in the business"
+  },
+  {
+    "code": "3300",
+    "name": "Opening Balance Equity",
+    "type": "Equity",
+    "subtype": "Owner's Equity",
+    "gaap_ref": "opening_balance_equity",
+    "keywords": ["opening", "balance", "startup"],
+    "description": "Equity account for opening balances"
+  },
+  {
+    "code": "4000",
+    "name": "Sales",
+    "type": "Revenue",
+    "subtype": "Income",
+    "gaap_ref": "sales_revenue",
+    "keywords": ["sales", "product", "goods sold"],
+    "description": "Revenue from product sales"
+  },
+  {
+    "code": "4100",
+    "name": "Service Revenue",
+    "type": "Revenue",
+    "subtype": "Income",
+    "gaap_ref": "service_revenue",
+    "keywords": ["service", "consulting", "professional"],
+    "description": "Revenue from services provided"
+  },
+  {
+    "code": "4200",
+    "name": "Discounts",
+    "type": "Revenue",
+    "subtype": "Income",
+    "gaap_ref": "discounts_given",
+    "keywords": ["discount", "allowance", "reduction"],
+    "description": "Discounts given to customers"
+  },
+  {
+    "code": "4300",
+    "name": "Returns and Allowances",
+    "type": "Revenue",
+    "subtype": "Income",
+    "gaap_ref": "returns_allowances",
+    "keywords": ["return", "refund", "allowance", "credit"],
+    "description": "Customer returns and allowances"
+  },
+  {
+    "code": "4400",
+    "name": "Interest Income",
+    "type": "Revenue",
+    "subtype": "Other Income",
+    "gaap_ref": "interest_income",
+    "keywords": ["interest", "earned", "bank interest"],
+    "description": "Interest earned on deposits and investments"
+  },
+  {
+    "code": "4500",
+    "name": "Rental Income",
+    "type": "Revenue",
+    "subtype": "Other Income",
+    "gaap_ref": "rental_income",
+    "keywords": ["rent", "rental", "lease income"],
+    "description": "Income from rental properties"
+  },
+  {
+    "code": "4900",
+    "name": "Other Income",
+    "type": "Revenue",
+    "subtype": "Other Income",
+    "gaap_ref": "other_income",
+    "keywords": ["other", "miscellaneous", "sundry"],
+    "description": "Miscellaneous income"
+  },
+  {
+    "code": "5000",
+    "name": "Cost of Goods Sold",
+    "type": "Expense",
+    "subtype": "Cost of Goods Sold",
+    "gaap_ref": "cost_of_goods_sold",
+    "keywords": ["COGS", "cost of sales", "direct cost"],
+    "description": "Direct costs of goods sold"
+  },
+  {
+    "code": "5100",
+    "name": "Advertising & Promotion",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "advertising_marketing",
+    "keywords": ["advertising", "promotion", "marketing", "ads"],
+    "description": "Advertising and promotional expenses"
+  },
+  {
+    "code": "5110",
+    "name": "Bank Charges & Fees",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "bank_charges",
+    "keywords": ["bank", "charges", "fees", "service charge"],
+    "description": "Bank service charges and fees"
+  },
+  {
+    "code": "5120",
+    "name": "Commissions",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "commissions",
+    "keywords": ["commission", "referral", "sales incentive"],
+    "description": "Sales commissions paid"
+  },
+  {
+    "code": "5130",
+    "name": "Consulting & Professional Fees",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "consulting_fees",
+    "keywords": ["consulting", "professional", "advisory"],
+    "description": "Consulting and professional service fees"
+  },
+  {
+    "code": "5140",
+    "name": "Depreciation Expense",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "depreciation",
+    "keywords": ["depreciation", "amortization", "writedown"],
+    "description": "Depreciation of fixed assets"
+  },
+  {
+    "code": "5150",
+    "name": "Dues & Subscriptions",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "dues_subscriptions",
+    "keywords": ["dues", "subscription", "membership"],
+    "description": "Membership dues and subscriptions"
+  },
+  {
+    "code": "5160",
+    "name": "Education & Training",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "education_training",
+    "keywords": ["education", "training", "course", "seminar"],
+    "description": "Education and training expenses"
+  },
+  {
+    "code": "5170",
+    "name": "Insurance - Business",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "insurance_general",
+    "keywords": ["insurance", "liability", "business insurance"],
+    "description": "General business insurance"
+  },
+  {
+    "code": "5180",
+    "name": "Insurance - Health",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "insurance_health",
+    "keywords": ["health", "medical", "dental", "benefits"],
+    "description": "Health insurance for employees"
+  },
+  {
+    "code": "5200",
+    "name": "Interest & Bank Charges",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "interest_expense",
+    "keywords": ["interest", "finance charge", "loan interest"],
+    "description": "Interest paid on loans and credit"
+  },
+  {
+    "code": "5210",
+    "name": "Legal & Professional Fees",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "legal_professional_fees",
+    "keywords": ["legal", "attorney", "lawyer", "accountant"],
+    "description": "Legal and professional service fees"
+  },
+  {
+    "code": "5220",
+    "name": "Meals & Entertainment",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "meals_entertainment",
+    "keywords": ["meals", "entertainment", "dining", "client meals"],
+    "description": "Business meals and entertainment"
+  },
+  {
+    "code": "5230",
+    "name": "Office Supplies & Software",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "office_supplies",
+    "keywords": ["office", "supplies", "stationery", "software"],
+    "description": "Office supplies and software expenses"
+  },
+  {
+    "code": "5240",
+    "name": "Payroll - Wages",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "payroll_wages",
+    "keywords": ["payroll", "wages", "salary", "compensation"],
+    "description": "Employee wages and salaries"
+  },
+  {
+    "code": "5250",
+    "name": "Payroll - Taxes",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "payroll_taxes",
+    "keywords": ["payroll tax", "employer tax", "FICA", "EI", "CPP"],
+    "description": "Employer payroll taxes"
+  },
+  {
+    "code": "5260",
+    "name": "Pension & Benefits",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "pension_benefits",
+    "keywords": ["pension", "401k", "benefits", "retirement"],
+    "description": "Employee pension and benefit contributions"
+  },
+  {
+    "code": "5270",
+    "name": "Postage & Shipping",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "postage_shipping",
+    "keywords": ["postage", "shipping", "courier", "delivery"],
+    "description": "Postage and shipping costs"
+  },
+  {
+    "code": "5280",
+    "name": "Printing & Reproduction",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "printing",
+    "keywords": ["printing", "copying", "reproduction"],
+    "description": "Printing and reproduction costs"
+  },
+  {
+    "code": "5300",
+    "name": "Rent or Lease",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "rent_lease",
+    "keywords": ["rent", "lease", "office space"],
+    "description": "Rent or lease payments"
+  },
+  {
+    "code": "5310",
+    "name": "Repairs & Maintenance",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "repairs_maintenance",
+    "keywords": ["repairs", "maintenance", "fix", "upkeep"],
+    "description": "Repairs and maintenance costs"
+  },
+  {
+    "code": "5320",
+    "name": "Taxes & Licenses",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "taxes_licenses",
+    "keywords": ["tax", "license", "permit", "registration"],
+    "description": "Business taxes, licenses, and permits"
+  },
+  {
+    "code": "5330",
+    "name": "Telephone & Internet",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "telephone",
+    "keywords": ["telephone", "phone", "internet", "telecom"],
+    "description": "Telephone and internet expenses"
+  },
+  {
+    "code": "5340",
+    "name": "Travel",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "travel",
+    "keywords": ["travel", "airfare", "hotel", "lodging"],
+    "description": "Business travel expenses"
+  },
+  {
+    "code": "5350",
+    "name": "Vehicle Expenses",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "transportation_vehicle",
+    "keywords": ["vehicle", "car", "auto", "fuel", "gas", "mileage"],
+    "description": "Vehicle and transportation costs"
+  },
+  {
+    "code": "5360",
+    "name": "Utilities",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "utilities",
+    "keywords": ["utilities", "electric", "water", "gas", "hydro"],
+    "description": "Utility expenses"
+  },
+  {
+    "code": "5370",
+    "name": "Charitable Contributions",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "charitable_contributions",
+    "keywords": ["charity", "donation", "contribution"],
+    "description": "Charitable donations and contributions"
+  },
+  {
+    "code": "5380",
+    "name": "Bad Debt",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "bad_debt",
+    "keywords": ["bad debt", "uncollectible", "write-off"],
+    "description": "Uncollectible accounts written off"
+  },
+  {
+    "code": "5900",
+    "name": "Miscellaneous Expense",
+    "type": "Expense",
+    "subtype": "Operating Expense",
+    "gaap_ref": "miscellaneous_expense",
+    "keywords": ["miscellaneous", "other", "sundry", "general"],
+    "description": "Miscellaneous and uncategorized expenses"
+  }
+]
