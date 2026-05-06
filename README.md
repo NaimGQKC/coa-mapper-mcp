@@ -111,9 +111,6 @@ pip install -e ".[dev]"
 pytest
 ```
 
-## Built By
-
-[Ampliwork](https://ampliwork.com)
 
 ## License
 
